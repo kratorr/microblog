@@ -13,7 +13,7 @@ def index():
         },
         {
 	    'author': {'username': 'Igor'},
-            'body' : 'is4o odin post'
+            'body' : 'Second   post'
         }
     ]
     return render_template('index.html',title='Home', user=user, posts=posts)
